@@ -38,8 +38,8 @@ Start here:
 - **[TRUST.md](TRUST.md)** — how to evaluate a closed-source verifier.
 - **[EULA.md](EULA.md)** — binary licence and production-use boundary.
 - **[NOTICE](NOTICE)** and **[SBOM](semanticcompute.cdx.json)** — composition and licence metadata.
-- **[Live product page](https://entertrainment.github.io/semanticcompute-dist/)**.
-- **[Licence-service privacy](https://entertrainment.github.io/semanticcompute-dist/licence-privacy.html)**.
+- **[Live product page](https://entertrainmentuk.github.io/semanticcompute-dist/)**.
+- **[Licence-service privacy](https://entertrainmentuk.github.io/semanticcompute-dist/licence-privacy.html)**.
 
 Install after receiving a trial or paid key:
 

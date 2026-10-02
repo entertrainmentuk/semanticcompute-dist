@@ -1955,17 +1955,17 @@ stated tolerance (`SLCompatibilityDoctor`).
   `normalize` the `SLIntrinsic` mirrors, and Apple APIs (`vDSP.hanningDenormalized`, `String.capitalized`,
   `JSONSerialization`).
 
-[Unreleased]: https://github.com/entertrainment/semanticcompute/compare/v1.23.0...HEAD
-[1.23.0]: https://github.com/entertrainment/semanticcompute/compare/v1.22.1...v1.23.0
-[1.22.1]: https://github.com/entertrainment/semanticcompute/compare/v1.22.0...v1.22.1
-[1.22.0]: https://github.com/entertrainment/semanticcompute/compare/v1.21.1...v1.22.0
-[1.21.1]: https://github.com/entertrainment/semanticcompute/compare/v1.21.0...v1.21.1
-[1.21.0]: https://github.com/entertrainment/semanticcompute/compare/v1.20.0...v1.21.0
-[1.20.0]: https://github.com/entertrainment/semanticcompute/releases/tag/v1.20.0
-[1.3.0]: https://github.com/entertrainment/semanticcompute/compare/v1.2.0...v1.3.0
-[1.2.0]: https://github.com/entertrainment/semanticcompute/releases/tag/v1.2.0
-[1.1.0]: https://github.com/entertrainment/semanticcompute/releases/tag/v1.1.0
-[1.0.0]: https://github.com/entertrainment/semanticcompute/releases/tag/v1.0.0
+[Unreleased]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.23.0...HEAD
+[1.23.0]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.22.1...v1.23.0
+[1.22.1]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.22.0...v1.22.1
+[1.22.0]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.21.1...v1.22.0
+[1.21.1]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.21.0...v1.21.1
+[1.21.0]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.20.0...v1.21.0
+[1.20.0]: https://github.com/entertrainmentuk/semanticcompute/releases/tag/v1.20.0
+[1.3.0]: https://github.com/entertrainmentuk/semanticcompute/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/entertrainmentuk/semanticcompute/releases/tag/v1.2.0
+[1.1.0]: https://github.com/entertrainmentuk/semanticcompute/releases/tag/v1.1.0
+[1.0.0]: https://github.com/entertrainmentuk/semanticcompute/releases/tag/v1.0.0
 
 
 ---

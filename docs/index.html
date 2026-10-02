@@ -588,7 +588,7 @@
         <div class="cta-row">
           <a class="btn primary" href="mailto:douglas@entertrainment.co.uk?subject=SemanticCompute%20licensed%20beta">Request a licensed build →</a>
           <a class="btn ghost" href="#live">Live verification →</a>
-          <a class="btn ghost" href="https://github.com/entertrainment/semanticcompute-dist/blob/main/RELEASE_NOTES_1.23.0.md">Release notes →</a>
+          <a class="btn ghost" href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/RELEASE_NOTES_1.23.0.md">Release notes →</a>
           <a class="btn ghost" href="#contract">The parity contract →</a>
         </div>
         <div class="platforms" aria-label="Platforms and availability">
@@ -627,8 +627,8 @@
             expiring, revocable entitlement. CPU reference truth, contracts, lowering, and parity remain aligned.</p>
         </div>
         <div class="release-actions">
-          <a class="btn copy" href="https://github.com/entertrainment/semanticcompute-dist/releases/tag/v1.23.0">View all 15 assets →</a>
-          <a class="btn ghost" href="https://github.com/entertrainment/semanticcompute-dist/blob/main/CHANGELOG.md">Changelog →</a>
+          <a class="btn copy" href="https://github.com/entertrainmentuk/semanticcompute-dist/releases/tag/v1.23.0">View all 15 assets →</a>
+          <a class="btn ghost" href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/CHANGELOG.md">Changelog →</a>
         </div>
       </div>
 
@@ -832,12 +832,12 @@ curl https://semanticcompute-trial.douglas-57d.workers.dev/v1/health</div>
       <p style="margin-top:12px;color:var(--text-faint);font-size: 0.75rem">Each <span style="color:var(--signal-ink)">→ prescribed fix</span> follows from the diagnosed cause — a code fix for the unguarded NaN, a stated tolerance for legitimate rounding; SemanticCompute prescribes it and re-verifies, it doesn't rewrite your kernel. (The smallest denormal and 0 are adjacent floats, so the flush is exactly 1 ULP.)</p>
 
       <p style="margin-top:14px;color:var(--text-dim);font-size: 0.8125rem">Same four culprits, live from the
-        <a href="https://github.com/entertrainment/semanticcompute-dist" style="color:var(--diverge)">failure lab</a>,
+        <a href="https://github.com/entertrainmentuk/semanticcompute-dist" style="color:var(--diverge)">failure lab</a>,
         runnable from the CLI binary: <code>semanticcompute-parity --zoo 01-fma-contraction</code></p>
 
       <p style="margin-top:14px;color:var(--text-dim);font-size: 0.8125rem">Provenance-agnostic array comparison: it compares
         <em>any producer's output</em> — <b>Triton · PyTorch · CUDA · vLLM · FlashAttention</b> — against your reference; no
-        integration with, or backend for, any of them is claimed. <a href="https://github.com/entertrainment/semanticcompute-dist/tree/main/examples" style="color:var(--diverge)">Worked&nbsp;examples</a>
+        integration with, or backend for, any of them is claimed. <a href="https://github.com/entertrainmentuk/semanticcompute-dist/tree/main/examples" style="color:var(--diverge)">Worked&nbsp;examples</a>
         reproduce each one's documented numerical failure mode — diagnosed and classified.</p>
 
       <p style="margin-top:10px;color:var(--text-dim);font-size: 0.8125rem">Any check can emit a self-contained
@@ -965,8 +965,8 @@ curl https://semanticcompute-trial.douglas-57d.workers.dev/v1/health</div>
           three suites on an RTX 4070 Ti SUPER at source checkpoint <code>f183b0d</code>, covering odd extents,
           folded-4D dispatch, branches, NaN/±∞ semantics, uint marshalling, loops, and the float-vector layer under
           a stated no-fast-math contract. Earlier RTX 5080 and RTX 5060 Ti runs provide historical device breadth. The
-          <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/docs/cuda-parity-evidence.txt" style="color:inherit">evidence log published</a>
-          (and the GPU-free <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/docs/cuda-compile-gate.txt" style="color:inherit">NVRTC compile-gate log</a> beside it). Verified for
+          <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/docs/cuda-parity-evidence.txt" style="color:inherit">evidence log published</a>
+          (and the GPU-free <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/docs/cuda-compile-gate.txt" style="color:inherit">NVRTC compile-gate log</a> beside it). Verified for
           the covered specimens on recorded configurations — the core itself ships no CUDA runtime, and says so.</p>
       </div>
 
@@ -1027,7 +1027,7 @@ curl https://semanticcompute-trial.douglas-57d.workers.dev/v1/health</div>
         <div class="replay-body" id="evidenceReplay" aria-label="Replay of the published CUDA parity evidence log"></div>
       </div>
       <p class="replay-caption">Every line above is verbatim from the
-        <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/docs/cuda-parity-evidence.txt" style="color:var(--diverge)">published evidence log</a> —
+        <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/docs/cuda-parity-evidence.txt" style="color:var(--diverge)">published evidence log</a> —
         nothing staged, nothing summarised. The same file the CUDA claims on this page link to.</p>
     </div>
   </section>
@@ -1183,11 +1183,11 @@ export SEMANTICCOMPUTE_LICENCE_KEY=<span class="s">sc_lic_…</span>
 curl -fsSL raw.githubusercontent.com/entertrainment/<span class="s">semanticcompute-dist</span>/main/install.sh | bash
 <span class="c"># Claude Desktop: just double-click semanticcompute-mcp.mcpb (Settings ▸ Extensions)</span></div>
           <p style="color:var(--text-dim); font-size: 0.8125rem; margin-top:10px">
-            Prefer a manual binary? Grab one from <a href="https://github.com/entertrainment/semanticcompute-dist/releases" style="color:var(--diverge)">Releases</a>.
-            Read the <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/RELEASE_NOTES_1.23.0.md" style="color:var(--diverge)">detailed 1.23.0 notes</a>
-            or the <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/CHANGELOG.md" style="color:var(--diverge)">complete changelog</a>.
+            Prefer a manual binary? Grab one from <a href="https://github.com/entertrainmentuk/semanticcompute-dist/releases" style="color:var(--diverge)">Releases</a>.
+            Read the <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/RELEASE_NOTES_1.23.0.md" style="color:var(--diverge)">detailed 1.23.0 notes</a>
+            or the <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/CHANGELOG.md" style="color:var(--diverge)">complete changelog</a>.
             Per-client setup (Claude Desktop · Claude Code · Codex · Gemini · VS Code · Cursor · Windsurf) is in the
-            <a href="https://github.com/entertrainment/semanticcompute-dist/blob/main/docs/INSTALL-MCP.md" style="color:var(--diverge)">install guide</a>.</p>
+            <a href="https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/docs/INSTALL-MCP.md" style="color:var(--diverge)">install guide</a>.</p>
           <p style="color:var(--text-dim); font-size: 0.875rem; margin-top:16px">
             Run the MCP server so an agent can verify numerics, classify the cause, and get the <em>prescribed
             fix</em> — mid-task. Diagnosis returns a typed <code>remediesByCause</code> map, so the agent applies

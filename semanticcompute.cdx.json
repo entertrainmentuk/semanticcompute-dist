@@ -10,7 +10,7 @@
       "supplier": { "name": "Douglas Horner (Entertrainment)", "contact": [ { "email": "douglas@entertrainment.co.uk" } ] },
       "purl": "pkg:swift/entertrainment/semanticcompute@1.23.0",
       "licenses": [
-        { "license": { "id": null, "name": "LicenseRef-SemanticCompute-Commercial", "url": "https://github.com/entertrainment/semanticcompute-dist/blob/main/EULA.md" } }
+        { "license": { "id": null, "name": "LicenseRef-SemanticCompute-Commercial", "url": "https://github.com/entertrainmentuk/semanticcompute-dist/blob/main/EULA.md" } }
       ],
       "properties": [
         { "name": "semanticcompute:licence", "value": "commercial" },
